@@ -1,7 +1,0 @@
-#Ignore generated files 
-target/
-build/
-
-#Ignore specific file types
-*.class
-*.swp

@@ -1,13 +1,14 @@
 import java.util.*;
-import javax.swing.Jframe;
+import javax.swing.JFrame;
+
 
 public class Main {
     public static void main(String[] args) {
       
       
-   Jframe window= new Jframe("TETRIS GAME");
-   window.setDefaulCloseOpreration(Jframe.EXIT_ON_CLOSE);
-   window.setResizable(false);
+   JFrame window= new JFrame("TETRIS GAME");
+   window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   window.setResizable(true);
    
    // adding the gamePanel to the (the game window)
    
@@ -17,7 +18,7 @@ public class Main {
    
    
    
-   window.setLocaltionRelativeTo(null);
+   window.setLocationRelativeTo(null);
    window.setVisible(true);
    
       
